@@ -23,7 +23,7 @@ void notifyInterrupt_5(){ interruptDispatcher.notifyInterrupt(5); }
 void notifyInterrupt_6(){ interruptDispatcher.notifyInterrupt(6); }
 void notifyInterrupt_7(){ interruptDispatcher.notifyInterrupt(7); }
 void notifyInterrupt_8(){ interruptDispatcher.notifyInterrupt(8); }
-void notifyInterrupt_9(){ interruptDispatcher.notifyInterrupt(9); }
+void notifyInterrupt_9(){  interruptDispatcher.notifyInterrupt(9); }
 void notifyInterrupt_10(){ interruptDispatcher.notifyInterrupt(10); }
 void notifyInterrupt_11(){ interruptDispatcher.notifyInterrupt(11); }
 void notifyInterrupt_12(){ interruptDispatcher.notifyInterrupt(12); }

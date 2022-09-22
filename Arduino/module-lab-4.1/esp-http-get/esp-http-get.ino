@@ -4,8 +4,8 @@
 #include <WiFi.h>
 #include <HTTPClient.h>
 
-const char* ssid = "LittleBarfly";
-const char* password = "esiot2122";
+const char* ssid = "John";
+const char* password = "abete555";
 
 const char *serverPath = "http://www.google.it";
 

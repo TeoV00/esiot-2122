@@ -8,10 +8,10 @@
 #include <WiFi.h>
 #include <HTTPClient.h>
 
-const char* ssid = "LittleBarfly";
-const char* password = "esiot2122";
+const char* ssid = "John🐻";
+const char* password = "abete555";
 
-const char *serviceURI = "https://68ed-137-204-71-5.ngrok.io";
+const char *serviceURI = "https://fbdf-87-19-93-97.eu.ngrok.io";
 
 void connectToWifi(const char* ssid, const char* password){
   WiFi.begin(ssid, password);
@@ -49,7 +49,7 @@ int sendData(String address, float value, String place){
 void loop() {
   if (WiFi.status()== WL_CONNECTED){      
 
-    int value = random(15,20);
+    int value = random(15,200);
     int code = sendData(serviceURI, value, "home");
     if (code == 200){
        Serial.println("ok");   
